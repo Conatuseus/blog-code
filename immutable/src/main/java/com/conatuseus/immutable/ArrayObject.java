@@ -1,11 +1,13 @@
 package com.conatuseus.immutable;
 
+import java.util.Arrays;
+
 public class ArrayObject {
 
     private final int[] array;
 
     public ArrayObject(final int[] array) {
-        this.array = array.clone();
+        this.array = Arrays.copyOf(array,array.length);
     }
 
     public int[] getArray() {
