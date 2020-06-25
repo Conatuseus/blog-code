@@ -6,6 +6,4 @@ fun main() {
 
     val email: String? = ""
     email?.let { sendEmail(it) }
-
-
 }
