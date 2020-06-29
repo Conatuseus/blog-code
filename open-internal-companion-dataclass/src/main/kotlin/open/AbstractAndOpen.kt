@@ -2,7 +2,7 @@ package open
 
 abstract class Animal {
 
-    // 추상 메서드는 반드시 override 해야
+    // 추상 메서드는 반드시 override 해야 함
     abstract fun bark()
 
     // 이 메서드는 하위 클래스에서 선택적으로 override 할 수 있다. (하거나 안하거나 자유)
