@@ -22,4 +22,3 @@ class Dog() : Animal() {
         println("dog's running!")
     }
 }
-
