@@ -1,6 +1,6 @@
 package com.conatuseus.blogcode.jpaentityconstructor
 
-class ArticleRequest (
+class ArticleRequest(
     val title: String,
     val content: String
 )
