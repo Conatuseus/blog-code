@@ -9,6 +9,7 @@ import javax.persistence.OneToMany
 
 @Entity
 data class Article(
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long? = null,
