@@ -1,0 +1,32 @@
+spring:
+
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+    default-property-inclusion: non_null
+    deserialization:
+      fail-on-unknown-properties: false
+      fail-on-null-for-primitives: true
+
+  jpa:
+    database: mysql
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      naming:
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+      ddl-auto: create
+    properties:
+      org.hibernate.flushMode: COMMIT
+      hibername:
+        format_sql: true
+
+  datasource:
+    url: jdbc:mysql://localhost:13307/exception?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+    hikari:
+      pool-name: contract
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
