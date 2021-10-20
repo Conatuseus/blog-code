@@ -5,6 +5,9 @@
       <module name="demo" target="11" />
       <module name="demo.main" target="11" />
       <module name="demo.test" target="11" />
+      <module name="exception" target="11" />
+      <module name="exception.main" target="11" />
+      <module name="exception.test" target="11" />
       <module name="requestbody-binding" target="11" />
       <module name="requestbody-binding.main" target="11" />
       <module name="requestbody-binding.test" target="11" />

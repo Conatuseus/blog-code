@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:13307/blog_persistence?characterEncoding=UTF-8&serverTimezone=Asia/Seoul
+    username: root
+    password: 1234
+    hikari:
+      pool-name: contract
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        format_sql: true

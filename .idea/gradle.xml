@@ -27,6 +27,18 @@
         </option>
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/persistencecontext" />
+        <option name="gradleHome" value="/usr/local/Cellar/gradle/7.0/libexec" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/persistencecontext" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
